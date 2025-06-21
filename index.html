@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Pay ₹1.18 to Ronit Parikh</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body { font-family:sans-serif; text-align:center; margin:2rem auto; max-width:28rem; }
+  img  { width:240px; height:240px; margin:1.5rem auto; display:block; }
+  a    { color:#007bff; word-break:break-all; }
+</style>
+
+<h1>Invoice INV2024339</h1>
+<p>Redirecting you to your UPI app…</p>
+
+<script>
+  // 1️⃣ Try opening the UPI app immediately
+  location.replace("upi://pay?pa=9104016273@ybl"
+    + "&pn=Ronit%20Parikh"
+    + "&tn=Payment%20for%20Invoice%20INV2024339"
+    + "&am=1.18"
+    + "&cu=INR");
+</script>
+
+<!-- 2️⃣ Fallback for browsers that block custom schemes -->
+<p>If nothing happened, tap or scan:</p>
+<a href="upi://pay?pa=9104016273@ybl&pn=Ronit%20Parikh&tn=Payment%20for%20Invoice%20INV2024339&am=1.18&cu=INR">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=upi%3A%2F%2Fpay%3Fpa%3D9104016273%40ybl%26pn%3DRonit%2520Parikh%26tn%3DPayment%2520for%2520Invoice%2520INV2024339%26am%3D1.18%26cu%3DINR"
+       alt="Scan to pay">
+</a>
